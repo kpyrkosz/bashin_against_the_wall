@@ -2,7 +2,7 @@
 
 #How many six digit numbers n satisfy conditions:
 # - n is a perfect square
-# - last 3 digits are one bigger than to first 3
+# - last 3 digits are one greater than first 3
 
 for i in {100..998}; do
 	val="$i$((i+1))"
